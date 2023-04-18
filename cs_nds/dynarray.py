@@ -7,7 +7,7 @@ class DynArray:
         self.__data = []
 
     def append(self, element: any) -> None:
-        self.__data.append()
+        self.__data.append(element)
 
     def delete(self, index: int) -> None:
         del self.__data[index]

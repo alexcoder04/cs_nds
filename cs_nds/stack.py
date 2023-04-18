@@ -41,3 +41,4 @@ class Stack:
         for el in args:
             s.push(el)
         return s
+
