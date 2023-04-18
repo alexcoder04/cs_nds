@@ -15,9 +15,24 @@ up-to-date with the latest specifications.
 
 If you encounter a problem, please open an [issue](https://github.com/alexcoder04/cs_nds/issues).
 
+## Installation
+
+This package is available over `pip`:
+
+```sh
+pip install cs-nds
+```
+
+To use it in your code, just import it:
+
+```python
+import cs_nds
+```
+
 ## Data Structures
 
- - `Stack` ("Stapel")
- - `Queue` ("(Warte-)Schlange")
- - `DynArray` ("Dynamische Reihung")
+ - `Stack` ("Stapel" / stack)
+ - `Queue` ("(Warte-)Schlange" / queue)
+ - `DynArray` ("Dynamische Reihung" / dynamic array)
+ - `BinTree` ("Binärbaum" / binary tree)
 
