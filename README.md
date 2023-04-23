@@ -27,6 +27,11 @@ To use it in your code, just import it:
 
 ```python
 import cs_nds
+
+my_queue = cs_nds.Queue()
+my_queue.enqueue(3)
+
+# ...
 ```
 
 ## Data Structures

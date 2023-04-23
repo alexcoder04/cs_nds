@@ -11,6 +11,9 @@ class BinTree:
     def hasItem(self) -> bool:
         return self.__value is not None
 
+    def getItem(self) -> any:
+        return self.__value
+
     def setItem(self, inhalt: any) -> None:
         self.__value = inhalt
 

@@ -16,6 +16,12 @@ class TestBinTree(unittest.TestCase):
         tree.deleteItem()
         self.assertFalse(tree.hasItem())
 
+    def test_getItem(self):
+        tree = BinTree(3)
+        self.assertEqual(tree.getItem(), 3)
+        tree = BinTree()
+        self.assertIsNone(tree.getItem())
+
     def test_setItem(self):
         tree = BinTree()
         tree.setItem(10)

@@ -11,7 +11,7 @@ with open(path.join(HERE, "README.md"), encoding="utf-8") as f:
 
 setup(
     name="cs-nds",
-    version="0.3.0",
+    version="0.3.1",
     description="Often used things for Computer Science classes",
     long_description=long_description,
     long_description_content_type="text/markdown",
